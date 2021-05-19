@@ -39,7 +39,7 @@ Resources:
       InstanceTenancy: default
       Tags:
       - Key: Name
-        Value: !Sub '10.${ClassB}.0.0/16'
+        Value: !Sub 'VPC 10.${ClassB}.0.0/16'
       - Key: Project
         Value: IaC PoC
   VPCCidrBlock:
