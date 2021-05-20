@@ -43,7 +43,7 @@ Resources:
       - Key: Project
         Value: IaC PoC
       - Key: Environment
-        Value: Dev
+        Value: Development
   VPCCidrBlock:
     Type: 'AWS::EC2::VPCCidrBlock'
     Properties:
