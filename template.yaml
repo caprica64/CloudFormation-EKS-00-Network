@@ -42,6 +42,8 @@ Resources:
         Value: !Sub 'VPC 10.${ClassB}.0.0/16'
       - Key: Project
         Value: IaC PoC
+      - Key: Environment
+        Value: Dev
   VPCCidrBlock:
     Type: 'AWS::EC2::VPCCidrBlock'
     Properties:
