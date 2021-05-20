@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'VPC: com subnets publicas e privadas em 3AZ sem NAT Gateway - baseado no cloudonaut.io - teste de changeset'
+Description: 'VPC: com subnets publicas e privadas em 3AZ sem NAT Gateway - baseado no cloudonaut.io - teste de changeset com estágio de execução'
 Metadata:
   'AWS::CloudFormation::Interface':
     ParameterGroups:
@@ -41,7 +41,7 @@ Resources:
       - Key: Name
         Value: !Sub 'VPC 10.${ClassB}.0.0/16'
       - Key: Project
-        Value: IaC PoC
+        Value: IaC Network Stack
       - Key: Environment
         Value: Development
   VPCCidrBlock:
